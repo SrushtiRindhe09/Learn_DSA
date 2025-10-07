@@ -1,3 +1,10 @@
+'''
+Question
+Construct Smart Library Management System: Implementation and
+Comparison of Linear and Binary Search Algorithms for Locating Books in an
+Unsorted Book Database.
+'''
+
 # -------------------- Book Database --------------------
 books = [
     "Python Programming",
@@ -75,3 +82,40 @@ while True:
 
     else:
         print("Invalid choice! Please enter 1, 2, or 3.")
+
+
+'''
+Output
+
+ SMART LIBRARY MANAGEMENT SYSTEM 
+1. Search Book using Linear Search
+2. Search Book using Binary Search
+3. Exit
+Enter your choice (1/2/3): 1
+Enter the book name to search: data structures
+Book 'Data Structures' found at position 2
+
+ SMART LIBRARY MANAGEMENT SYSTEM 
+1. Search Book using Linear Search
+2. Search Book using Binary Search
+3. Exit
+Enter your choice (1/2/3): 2
+Enter the book name to search: machine learning
+Book 'Machine Learning' found at position 7 in sorted list
+
+ SMART LIBRARY MANAGEMENT SYSTEM 
+1. Search Book using Linear Search
+2. Search Book using Binary Search
+3. Exit
+Enter your choice (1/2/3): 2
+Enter the book name to search: compter network
+ Book 'compter network' not found!
+
+ SMART LIBRARY MANAGEMENT SYSTEM 
+1. Search Book using Linear Search
+2. Search Book using Binary Search
+3. Exit
+Enter your choice (1/2/3): 3
+Exiting the Library System. Goodbye!
+
+'''
