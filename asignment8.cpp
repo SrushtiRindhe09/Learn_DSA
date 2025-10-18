@@ -5,7 +5,7 @@ b) Dequeue: Customer is served.
 c) Display Queue: Show customers waiting.*/
 
 #include <iostream>
-using namespace std;
+using namespace std:
 
 #define SIZE 10
 
